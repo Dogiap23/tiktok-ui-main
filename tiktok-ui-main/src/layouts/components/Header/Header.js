@@ -59,11 +59,9 @@ const MENU_ITEMS = [
 function Header() {
     const currentUser = true;
 
-    // Handle logic
     const handleMenuChange = (menuItem) => {
         switch (menuItem.type) {
             case 'language':
-                // Handle change language
                 break;
             default:
         }
@@ -134,7 +132,7 @@ function Header() {
                         {currentUser ? (
                             <Image
                                 className={cx('user-avatar')}
-                                src=""
+                                src="https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/694c411c704b086f20011d5bfd61111d~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&nonce=49381&refresh_token=fe49930132443d500d7f793132156557&x-expires=1740016800&x-signature=w30AhksMOsRXMeiaAmRWlf5QdmE%3D&idc=my&ps=13740610&shcp=81f88b70&shp=a5d48078&t=4d5b0474"
                                 alt="Nguyen Van A"
                             />
                         ) : (

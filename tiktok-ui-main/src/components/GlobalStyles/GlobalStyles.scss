@@ -8,7 +8,6 @@
 
     --font-family: 'ProximaNova', sans-serif;
 
-    // Default layout
     --default-layout-header-height: 60px;
     --default-layout-width: 1150px;
     --default-layout-horizontal-spacer: 24px;
@@ -33,7 +32,6 @@ body {
     overflow-y: overlay;
 }
 
-// Scrollbar CSS
 html *::-webkit-scrollbar {
     border-radius: 0;
     width: 8px;
